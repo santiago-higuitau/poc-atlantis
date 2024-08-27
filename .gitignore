@@ -1,3 +1,4 @@
 .venv
 notebooks
-poetry.lock
+/poetry.lock
+/pyproject.toml
