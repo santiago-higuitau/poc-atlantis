@@ -61,8 +61,8 @@ try:
     st.bar_chart(cluster_distribution)
     
     # Mostrar la imagen guardada de los clusters en 2D
-    st.subheader("Clusters de Clientes en PCA 2D")
-    st.image('./data/data_processed/clusters_pca_2d.png', caption='Clusters de Clientes en Espacio PCA 2D', use_column_width=True)
+    #st.subheader("Clusters de Clientes en PCA 2D")
+    #st.image('./data/data_processed/clusters_pca_2d.png', caption='Clusters de Clientes en Espacio PCA 2D', use_column_width=True)
     
     # Descargar los resultados filtrados si se busca un cliente
     if cliente_id and not filtered_df.empty:
